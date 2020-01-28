@@ -1,0 +1,14 @@
+10:56:02 PID:2345 MainThread >>>>> SERVER LISTENING ON PORT 1200 <<<<<
+10:56:02 PID:2345 MainThread Server starting in normal mode
+13:47:07 PID:2866 MainThread >>>>> SERVER LISTENING ON PORT 1200 <<<<<
+13:47:07 PID:2866 MainThread Server starting in normal mode
+13:47:47 PID:2866 MainThread New client accepted HOST: 127.0.0.1 PORT: 55187
+13:47:54 PID:2866 MainThread EXECUTE 127.0.0.1:55187	ls
+13:47:54 PID:2866 MainThread SUCCESS 127.0.0.1:55187	ls
+13:48:08 PID:2866 MainThread EXECUTE 127.0.0.1:55187	get README.md
+13:48:08 PID:2866 Thread-1 Opened data socket 55188 for 127.0.0.1:1200
+13:48:08 PID:2866 Thread-1 Connected data socket 55188 for 127.0.0.1:1200 through 127.0.0.1:55189
+13:48:08 PID:2866 Thread-1 SUCCESS sent 'README.md' to 127.0.0.1:55188
+13:48:08 PID:2866 Thread-1 Closed data socket 55188 for 127.0.0.1:1200
+13:48:12 PID:2866 MainThread EXECUTE 127.0.0.1:55187	ls
+13:48:12 PID:2866 MainThread SUCCESS 127.0.0.1:55187	ls
